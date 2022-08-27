@@ -1,4 +1,4 @@
-package ru.job4j.generics.task;
+package ru.job4j.generic;
 
 public class Tiger extends Predator {
     private int size;

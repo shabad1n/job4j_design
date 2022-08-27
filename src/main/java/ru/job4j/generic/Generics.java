@@ -1,4 +1,4 @@
-package ru.job4j.generics.task;
+package ru.job4j.generic;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -37,10 +37,6 @@ public class Generics {
                 System.out.println("Hello, gerls");
             }
         }
-    }
-
-    public void printObject(int a, int b) {
-        System.out.println(a + b);
     }
 
     public void printBoundedWildCard(List<? extends Predator> list) {
